@@ -1,0 +1,23 @@
+@Composable
+fun RGBDemo(modifier: Modifier = Modifier) {
+    Row {
+        Box (
+                modifier = modifier.width(133.dp).fillMaxHeight().background(Color.Red),
+                contentAlignment = Alignment.Center
+        ){
+            Text(text = "红色");
+        }
+        Box (
+                modifier = modifier.width(133.dp).fillMaxHeight().background(Color.Green),
+                contentAlignment = Alignment.Center
+        ){
+            Text(text = "绿色");
+        }
+        Box (
+                modifier = modifier.width(133.dp).fillMaxHeight().background(Color.Blue),
+                contentAlignment = Alignment.Center
+        ){
+            Text(text = "蓝色");
+        }
+    }
+}
