@@ -1,0 +1,15 @@
+@Composable
+fun Hello(modifier: Modifier = Modifier) {
+    Text(
+        text = "学号+姓名",
+        modifier = modifier
+    )
+}
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun HelloPreview() {
+    A1Theme {
+        Hello()
+    }
+}
